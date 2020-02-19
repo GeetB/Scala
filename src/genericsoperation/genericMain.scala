@@ -24,7 +24,7 @@ val stackInt = new Stack[Int]
   stackString.show()
 }
 
-// Defining generic class 
+// Defining generic class
 class Stack[A] {
   var elements : List[A] = Nil
   def push(x: A) = {elements = x :: elements}
